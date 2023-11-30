@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.team-item {
+  list-style-type: none;
+  width: 50%;
+}
+.link {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  height: 85%;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  padding: 7px 12px;
+  margin: 8px 24px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .link {
+    padding: 12px 24px;
+    margin: 15px 30px;
+  }
+}
+
+.team-logo {
+  width: 45px;
+  height: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.team-name {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-right: 4px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 32px;
+    margin-left: 16px;
+  }
+}
